@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
     <title>Title</title>
 </head>
 <body>
+    <div id="root">
+
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#root',
+            data: {
+                message: 'hello',
+                firstName: 'zhang',
+                lastName: 'san'
+            },
+            computed: {
+                fullName() {
+                    return this.firstName + this.lastName;
+                }
+            }
+        });
+
+    </script>
 
 </body>
 </html>
