@@ -1,67 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
-  <title>Title</title>
-  <style>
-    .activated{
-      color: red;
-    }
-  </style>
-</head>
-<body>
-  <div id="root">
-    <div
-      @click="handleDivClick"
-      :class="{activated: isTrue}">hello
-    </div>
-    <child content="world">
-      <p>Dell</p>
-    </child>
-    <child content="everyone"></child>
-  </div>
-  <script>
-    Vue.prototype.bus = new Vue();
-    Vue.component('child', {
-      template: `<div @click="handleClick">
-                    {{content}}
-                    <slot></slot>
-                    </div>`,
-      props: {
-        content: {
-          type: String,
-          required: false,
-          default: 'default value',
-          validate(value) {
-            return value.length > 5
-          }
-        }
-      },
-      methods: {
-        handleClick() {
-          this.bus.$emit('change', this.content)
-        },
-        mounted() {
-          const this_ = this
-          this.bus.$on('change', function(msg) {
-            this_.content = msg
-          })
-        }
-      }
-    });
-    var app = new Vue({
-      el: '#root',
-      data: {
-        isTrue: false
-      },
-      methods: {
-        handleDivClick() {
-          this.isTrue = !this.isTrue;
-        }
-      }
-    });
-  </script>
-
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>go-where</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
