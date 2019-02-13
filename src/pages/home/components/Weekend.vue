@@ -29,21 +29,21 @@ export default {
 
 <style lang="stylus" scoped>
   .recommend-title
-    line-height: .8rem
-    background-color: #eee
-    text-indent: .2rem
+    line-height .8rem
+    background-color #eee
+    text-indent .2rem
   .item-img-wrapper
-    height: 0
-    overflow: hidden
-    padding-bottom: 37.09%
+    height 0
+    overflow hidden
+    padding-bottom 37.09%
   .item-img
-    width: 100%
+    width 100%
   .item-info
-    padding: .1rem
+    padding .1rem
     .item-title
-      line-height: .54rem
-      font-size: .32rem
+      line-height .54rem
+      font-size .32rem
     .item-desc
-      line-height: .4rem
-      color: #ccc
+      line-height .4rem
+      color #ccc
 </style>
