@@ -4,7 +4,7 @@
     <ul>
       <li
         class="item border-bottom"
-        v-for="item of recommendList"
+        v-for="item of list"
         :key="item.id">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl">
@@ -21,25 +21,8 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '京城周末撒欢',
-        desc: '北京首都'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg',
-        title: '京城有好泉水',
-        desc: '细数北京温泉，温暖你的冬天'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1811/7e/476589267ebb41.jpg_r_640x214_bf599709.jpg',
-        title: '帝都动物园',
-        desc: '1321321321321'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
@@ -52,7 +35,7 @@ export default {
   .item-img-wrapper
     height: 0
     overflow: hidden
-    padding-bottom: 33.9%
+    padding-bottom: 37.09%
   .item-img
     width: 100%
   .item-info
