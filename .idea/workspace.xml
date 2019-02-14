@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d88d229a-0ccc-49d1-b588-431e445357ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/pages/city/City.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/City.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/city/components/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/Search.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +43,7 @@
           <entry key="json" value="7" />
           <entry key="png" value="1" />
           <entry key="styl" value="2" />
-          <entry key="vue" value="27" />
+          <entry key="vue" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -56,7 +55,7 @@
           <entry key="JavaScript" value="17" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Stylus" value="2" />
-          <entry key="Vue.js" value="27" />
+          <entry key="Vue.js" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -68,7 +67,7 @@
           <entry key="js" value="376" />
           <entry key="json" value="52" />
           <entry key="styl" value="61" />
-          <entry key="vue" value="7249" />
+          <entry key="vue" value="8063" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -79,7 +78,7 @@
           <entry key="JavaScript" value="376" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Stylus" value="61" />
-          <entry key="Vue.js" value="7249" />
+          <entry key="Vue.js" value="8063" />
         </counts>
       </usages-collector>
     </session>
@@ -116,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/city/City.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding>
                 <element signature="e#178#222#0" expanded="true" />
               </folding>
@@ -126,6 +125,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/city/components/Search.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/city/components/Alphabet.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
@@ -148,15 +156,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -214,16 +213,16 @@
         <option value="$PROJECT_DIR$/src/assets/style/varibles.styl" />
         <option value="$PROJECT_DIR$/src/pages/home/components/Recommend.vue" />
         <option value="$PROJECT_DIR$/src/pages/city/components/Header.vue" />
-        <option value="$PROJECT_DIR$/src/pages/city/components/Search.vue" />
         <option value="$PROJECT_DIR$/src/pages/home/components/Header.vue" />
         <option value="$PROJECT_DIR$/src/pages/home/components/Icons.vue" />
         <option value="$PROJECT_DIR$/src/pages/home/components/Swiper.vue" />
         <option value="$PROJECT_DIR$/src/pages/home/components/Weekend.vue" />
         <option value="$PROJECT_DIR$/src/pages/home/Home.vue" />
         <option value="$PROJECT_DIR$/static/mock/city.json" />
-        <option value="$PROJECT_DIR$/src/pages/city/City.vue" />
         <option value="$PROJECT_DIR$/src/pages/city/components/List.vue" />
         <option value="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" />
+        <option value="$PROJECT_DIR$/src/pages/city/City.vue" />
+        <option value="$PROJECT_DIR$/src/pages/city/components/Search.vue" />
       </list>
     </option>
   </component>
@@ -385,12 +384,12 @@
       <workItem from="1549953288421" duration="6745000" />
       <workItem from="1550021954794" duration="5315000" />
       <workItem from="1550033505112" duration="5808000" />
-      <workItem from="1550108536696" duration="4285000" />
+      <workItem from="1550108536696" duration="6319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56163000" />
+    <option name="totallyTimeSpent" value="58197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
@@ -539,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/city/components/Search.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/components/Icons.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
@@ -609,16 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/city/City.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#178#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/city/components/List.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -630,6 +612,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/city/City.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#178#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/city/components/Search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>
