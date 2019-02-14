@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88d229a-0ccc-49d1-b588-431e445357ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/City.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/City.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/components/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,7 +68,7 @@
           <entry key="js" value="376" />
           <entry key="json" value="52" />
           <entry key="styl" value="61" />
-          <entry key="vue" value="6285" />
+          <entry key="vue" value="7249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -81,7 +79,7 @@
           <entry key="JavaScript" value="376" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Stylus" value="61" />
-          <entry key="Vue.js" value="6285" />
+          <entry key="Vue.js" value="7249" />
         </counts>
       </usages-collector>
     </session>
@@ -109,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/city/components/List.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -119,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/city/City.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#178#222#0" expanded="true" />
               </folding>
@@ -130,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/city/components/Alphabet.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="319">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -223,8 +221,8 @@
         <option value="$PROJECT_DIR$/src/pages/home/components/Weekend.vue" />
         <option value="$PROJECT_DIR$/src/pages/home/Home.vue" />
         <option value="$PROJECT_DIR$/static/mock/city.json" />
-        <option value="$PROJECT_DIR$/src/pages/city/components/List.vue" />
         <option value="$PROJECT_DIR$/src/pages/city/City.vue" />
+        <option value="$PROJECT_DIR$/src/pages/city/components/List.vue" />
         <option value="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" />
       </list>
     </option>
@@ -387,12 +385,12 @@
       <workItem from="1549953288421" duration="6745000" />
       <workItem from="1550021954794" duration="5315000" />
       <workItem from="1550033505112" duration="5808000" />
-      <workItem from="1550108536696" duration="1647000" />
+      <workItem from="1550108536696" duration="4285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53525000" />
+    <option name="totallyTimeSpent" value="56163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
@@ -611,27 +609,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/city/components/List.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/city/City.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#178#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/city/components/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/city/components/Alphabet.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="319">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
         </state>
       </provider>
     </entry>
