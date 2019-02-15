@@ -1,33 +1,40 @@
 <template>
   <div>
     <div class="banner" @click="handleBannerClick">
-      <img class="banner-img" src="//img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg" alt="">
+      <img class="banner-img" :src="bannerImg" alt="">
       <div class="banner-info">
-        <div class="banner-title">故宫AAAA景区</div>
+        <div class="banner-title">{{ this.sightName }}</div>
         <div class="banner-number">
           <span class="iconfont banner-icon">&#xe64a;</span>
-          39
+          {{ this.gallaryImgs.length }}
         </div>
       </div>
     </div>
-    <common-gallary
-      :imgs="imgs"
-      v-show="showGallary"
-      @close="handleGallaryClose"
-    ></common-gallary>
+    <fade>
+      <common-gallary
+        :imgs="gallaryImgs"
+        v-show="showGallary"
+        @close="handleGallaryClose"
+      ></common-gallary>
+    </fade>
   </div>
 </template>
 
 <script>
 import CommonGallary from 'common/gallary/Gallary'
+import Fade from 'common/fade/Fade'
 export default {
   name: 'DetailBanner',
   components: {
-    CommonGallary
+    CommonGallary, Fade
+  },
+  props: {
+    sightName: String,
+    bannerImg: String,
+    gallaryImgs: Array
   },
   data () {
     return {
-      imgs: [],
       showGallary: false
     }
   },
