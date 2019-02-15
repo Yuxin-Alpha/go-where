@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d88d229a-0ccc-49d1-b588-431e445357ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,7 +64,7 @@
           <entry key="editorconfig" value="2" />
           <entry key="gitignore" value="12" />
           <entry key="html" value="1305" />
-          <entry key="js" value="857" />
+          <entry key="js" value="892" />
           <entry key="json" value="64" />
           <entry key="styl" value="61" />
           <entry key="vue" value="12112" />
@@ -76,7 +75,7 @@
           <entry key="CSS" value="16" />
           <entry key="HTML" value="1305" />
           <entry key="JSON" value="64" />
-          <entry key="JavaScript" value="857" />
+          <entry key="JavaScript" value="892" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Stylus" value="61" />
           <entry key="Vue.js" value="12112" />
@@ -131,7 +130,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-937">
@@ -158,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="-240">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -224,10 +223,10 @@
         <option value="$PROJECT_DIR$/src/pages/detail/Detail.vue" />
         <option value="$PROJECT_DIR$/src/common/gallary/Gallary.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/pages/detail/components/Banner.vue" />
         <option value="$PROJECT_DIR$/src/common/fade/Fade.vue" />
         <option value="$PROJECT_DIR$/src/pages/city/components/Alphabet.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
       </list>
     </option>
   </component>
@@ -269,6 +268,32 @@
               <item name="go-where" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-where" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-where" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-where" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-where" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-where" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-where" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-where" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-where" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-where" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="app.1b131de8b4c640b09b32bcd290bebe0d.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="go-where" type="b2602c69:ProjectViewProjectNode" />
@@ -433,12 +458,12 @@
       <workItem from="1550108536696" duration="16624000" />
       <workItem from="1550194980351" duration="14363000" />
       <workItem from="1550213267625" duration="629000" />
-      <workItem from="1550214673984" duration="241000" />
+      <workItem from="1550214673984" duration="1150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83735000" />
+    <option name="totallyTimeSpent" value="84644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
@@ -733,16 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -757,6 +772,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-937">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
