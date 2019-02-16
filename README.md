@@ -1,6 +1,6 @@
 # go-where
 
-> A Vue.js project
+> 仿制去哪网的旅游页面，使用Vue实现业务逻辑
 
 ## Build Setup
 
